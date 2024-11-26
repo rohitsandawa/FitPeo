@@ -1,0 +1,22 @@
+browser = chrome
+Url = https://www.fitpeo.com/
+implicitwait = 10
+
+#revenue calculator page xpath
+revcal = //a[@href='/revenue-calculator']
+
+#Patientfield_xpath
+patientxtbox = //body/div/div/div/div[2]/div/div/div/div/input
+ 
+#patientslider_xpath
+patientslider=//body/div/div/div/div[2]/div/div/span/span[3]/input 
+  
+#CPT_xpath
+CPT-99091 = (//input[contains(@class, 'PrivateSwitchBase-input css-1m9pwf3')])[1]
+CPT-99453 = (//input[contains(@class, 'PrivateSwitchBase-input css-1m9pwf3')])[2]
+CPT-99454 = (//input[contains(@class, 'PrivateSwitchBase-input css-1m9pwf3')])[3]
+CPT-99474 = (//input[contains(@class, 'PrivateSwitchBase-input css-1m9pwf3')])[8]
+
+#Total_xpath
+totalreimburse = //body/div/div/header/div/p[4]/p
+
