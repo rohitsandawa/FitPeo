@@ -1,3 +1,6 @@
+#execution_env=local
+execution_env=remote
+
 browser = chrome
 Url = https://www.fitpeo.com/
 implicitwait = 10
